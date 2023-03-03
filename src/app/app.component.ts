@@ -37,11 +37,11 @@ export class AppComponent {
       wifi: false,
       laundry: false,
     }
-  ];
+  ]
 
-  selectedLocation: HousingLocation | undefined;// = this.housingLocationList[0];
-
-  updateSelectedLocation(location: HousingLocation) {
+  selectedLocation: HousingLocation | undefined;
+  updateSelectedLocation(location:HousingLocation) {
     this.selectedLocation = location;
   }
+
 }
